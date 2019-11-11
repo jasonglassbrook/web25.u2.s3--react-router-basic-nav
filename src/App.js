@@ -14,9 +14,9 @@ import './App.css';
 const App = () => (
   <div>
     <Navigation/>
-    <Route exact path='/' component={}/>
-    <Route path='/about' component={}/>
-    <Route path='/contact' component={}/>
+    <Route exact path='/' component={Home}/>
+    <Route path='/about' component={About}/>
+    <Route path='/contact' component={Contact}/>
   </div>
 );
 
