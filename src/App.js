@@ -13,7 +13,10 @@ import './App.css';
 ***************************************/
 const App = () => (
   <div>
-    <Navigation />
+    <Navigation/>
+    <Route exact path='/' component={}/>
+    <Route path='/about' component={}/>
+    <Route path='/contact' component={}/>
   </div>
 );
 
