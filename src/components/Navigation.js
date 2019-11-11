@@ -1,5 +1,9 @@
+/// external modeles ///
 import React from 'react';
 
+/***************************************
+  COMPONENT
+***************************************/
 const Navigation = () => {
   return (
     <div>
@@ -19,4 +23,5 @@ const Navigation = () => {
   );
 };
 
+/**************************************/
 export default Navigation;
